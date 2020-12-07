@@ -1,0 +1,27 @@
+{
+    "name": "mock-middleware",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/markpro-code/mock-middleware.git",
+    "license": "MIT",
+    "scripts": {
+        "start": "DEBUG=mock-middleware nodemon ./scripts/start.js"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.15.0",
+        "eslint-config-prettier": "^7.0.0",
+        "eslint-plugin-node": "^11.1.0",
+        "eslint-plugin-prettier": "^3.2.0",
+        "nodemon": "^2.0.6",
+        "prettier": "^2.2.1"
+    },
+    "dependencies": {
+        "@graphql-tools/mock": "^7.0.0",
+        "@graphql-tools/schema": "^7.1.2",
+        "debug": "^4.3.1",
+        "express": "^4.17.1",
+        "express-graphql": "^0.12.0",
+        "graphql": "^15.4.0"
+    }
+}

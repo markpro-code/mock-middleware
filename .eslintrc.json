@@ -1,0 +1,17 @@
+{
+    "parser": "babel-eslint",
+    "extends": ["eslint:recommended", "plugin:node/recommended", "prettier"],
+    "plugins": ["prettier"],
+    "env": {
+        "node": true,
+        "commonjs": true
+    },
+
+    "rules": {
+        "strict": ["error", "global"],
+        "no-console": "error",
+        "no-alert": "error",
+        "no-debugger": "error",
+        "prettier/prettier": "error"
+    }
+}
